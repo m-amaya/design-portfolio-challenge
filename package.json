@@ -4,7 +4,7 @@
   "description": "Frontend Mentor Challenge: Design Portfolio",
   "repository": {
     "type": "git",
-    "url": "."
+    "url": "git+https://github.com/m-amaya/design-portfolio-challenge.git"
   },
   "homepage": "https://m-amaya.github.io/design-portfolio-challenge/",
   "author": "Marissa Amaya <mamaya.dev@gmail.com>",
