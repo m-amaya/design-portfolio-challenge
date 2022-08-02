@@ -2,6 +2,8 @@ import { Button, stitches } from "design-portfolio-ds";
 import { FC } from "react";
 
 import amyUrl from "~/assets/image-amy.webp";
+import H2 from "./H2";
+import Paragraph from "./Paragraph";
 
 const Section = stitches.styled("section", {
   alignItems: "center",
@@ -50,25 +52,6 @@ const TextGrid = stitches.styled("div", {
   },
   "@desktop": {
     gap: 34,
-  },
-});
-
-const H2 = stitches.styled("h2", {
-  fontSize: 26,
-  lineHeight: "32.76px",
-  "@tablet": {
-    textStyle: "h3",
-  },
-  "@desktop": {
-    textStyle: "h2",
-  },
-});
-
-const Paragraph = stitches.styled("p", {
-  fontSize: 16,
-  lineHeight: "26px",
-  "@tablet": {
-    textStyle: "default",
   },
 });
 

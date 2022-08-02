@@ -29,9 +29,9 @@ const Logo = stitches.styled("img", {
   },
 });
 
-const Header: FC = () => {
+const Header: FC<{ asFooter?: boolean }> = ({ asFooter }) => {
   return (
-    <HeaderStyled>
+    <HeaderStyled as={asFooter ? "footer" : "header"}>
       <Logo src={logoUrl} alt='Logo' />
       <Button
         css={{

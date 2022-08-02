@@ -1,6 +1,8 @@
 import { stitches } from "design-portfolio-ds";
 import { FC } from "react";
 
+import Paragraph from "./Paragraph";
+
 const Section = stitches.styled("section", {
   display: "grid",
   gap: 16,
@@ -26,21 +28,14 @@ const H1 = stitches.styled("h1", {
   },
 });
 
-const Description = stitches.styled("p", {
-  fontSize: 16,
-  "@tablet": {
-    fontSize: 18,
-  },
-});
-
 const HeroTitle: FC = () => {
   return (
     <Section>
       <H1>Design solutions made easy</H1>
-      <Description>
+      <Paragraph>
         With over ten years of experience in various design disciplines,
         I&apos;m your one-stop shop for your design needs.
-      </Description>
+      </Paragraph>
     </Section>
   );
 };
